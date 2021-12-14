@@ -48,7 +48,7 @@ public class MXHostAddressIterator implements Iterator<HostAddress> {
     private final Iterator<HostAddress> addresses;
 
     public MXHostAddressIterator(Iterator<String> hosts, DNSService dns, boolean useSingleIP) {
-        this(hosts, 25, dns, useSingleIP);
+        this(hosts, 465, dns, useSingleIP);
     }
 
     public MXHostAddressIterator(Iterator<String> hosts, int defaultPort, DNSService dns, boolean useSingleIP) {
